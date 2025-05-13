@@ -1,0 +1,61 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Centraliza o conteúdo da página */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #f0f2f5;
+}
+
+/* Container com input e botão */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+/* Campo de entrada do CEP */
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#buscar:hover {
+  background-color: #0056b3;
+}
+
+/* Área onde os dados serão exibidos */
+.container2 {
+  text-align: left;
+  padding: 35px;
+  padding-left: 100px;
+  width: 100%;
+  max-width: 600px;
+  font-size: 22px; /* Fonte maior para os dados */
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
